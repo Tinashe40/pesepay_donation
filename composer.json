@@ -1,0 +1,21 @@
+{
+    "name": "tina/pesepay_donation",
+    "description": "a php project to demostrate php backend pesepay payment gateway integretion.",
+    "type": "project",
+    "require": {
+        "codevirtus/pesepay": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tina\\PesepayDonation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tinashe40",
+            "email": "tinashemutero40@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
